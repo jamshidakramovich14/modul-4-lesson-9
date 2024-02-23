@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.dark-mode {
+    *{
+        background: #3b3737 !important;
+        color: white !important;
+    }
+}
